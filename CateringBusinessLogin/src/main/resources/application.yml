@@ -28,7 +28,8 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
+      uri: mongodb+srv://ashwin:12345@cluster0.uiogg.mongodb.net/catering-101?retryWrites=true&w=majority
+      database: catering-101
+#      host: localhost
+#      port: 27017
 #      database: ducat-assignment
-      database: catering_101
